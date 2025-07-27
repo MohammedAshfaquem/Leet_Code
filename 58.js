@@ -3,3 +3,5 @@ var lengthOfLastWord = function(s) {
     const lastword = arrayword[arrayword.length -1].length
    return lastword
 };
+
+//58 Finshed
