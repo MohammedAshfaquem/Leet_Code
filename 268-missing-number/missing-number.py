@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         n = len(nums)
-        sum_expected = n * (n + 1) // 2 
-        sum_actual = sum(nums)            
-        return sum_expected - sum_actual
+        for i in range(0,len(nums)+1):
+            if i not in nums:
+                return i
         
