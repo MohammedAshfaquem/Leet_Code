@@ -11,7 +11,4 @@ class Solution(object):
             else:
                 arr.append(str(i))
         return arr
-
-
-
         
